@@ -1,0 +1,41 @@
+{
+  "name": "hypertube",
+  "version": "1.0.0",
+  "description": "a video streaming webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm server/index.js",
+    "dev": "nodemon -r esm server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksefeane/hypertube.git"
+  },
+  "author": "ksefeane tchewa enayimul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksefeane/hypertube/issues"
+  },
+  "homepage": "https://github.com/ksefeane/hypertube#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "client-oauth2": "^4.3.3",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-42": "^1.2.6",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-oauth2": "^1.5.0",
+    "passport-telegram": "^1.0.0",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
